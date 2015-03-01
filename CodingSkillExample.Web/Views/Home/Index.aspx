@@ -20,7 +20,7 @@
             if (!Model.Notifications.HasErrors)
               {%>
                   <p>
-                      The next working day from today is: 
+                      The next working day from the date specified below is: 
                       <span><%=Model.NextWorkingDay%></span>
                   </p>
               <%}%>
@@ -34,7 +34,7 @@
     <form action="/Home/NextWorkingDay" method="post">
         <p>Get the next working day from:</p>
         <div>
-            <input type="date" name="Date" />
+            <input type="date" name="Date" value="<%=DateTime.Today.Date %>" />
             <button type="submit" value="Get next working day">Get next working day</button>
         </div>
     </form>
