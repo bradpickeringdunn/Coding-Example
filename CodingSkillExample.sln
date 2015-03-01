@@ -1,0 +1,62 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{007CC1E4-F4A0-48DD-B058-8F1248B015A9}"
+	ProjectSection(SolutionItems) = preProject
+		.nuget\NuGet.Config = .nuget\NuGet.Config
+		.nuget\NuGet.exe = .nuget\NuGet.exe
+		.nuget\NuGet.targets = .nuget\NuGet.targets
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CodingSkillExample.Domain", "CodingSkillExample.Domain\CodingSkillExample.Domain.csproj", "{C79CAD29-35C1-4AC2-8589-BC8226161247}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CodingSkillExample.Domain.Tests", "CodingSkillExample.Domain.Tests\CodingSkillExample.Domain.Tests.csproj", "{9BF28FDC-D729-47FA-9FAA-A95253439A95}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CodingSkillExample.Models", "CodingSkillExample.Models\CodingSkillExample.Models.csproj", "{0014CE66-BCE9-4982-BE95-9AE33106DA13}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CodingSkillExample.Web", "CodingSkillExample.Web\CodingSkillExample.Web.csproj", "{2F71A9E6-BD95-4665-B637-64F574235648}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CodingSkillExample.Web.Tests", "CodingSkillExample.Web.Tests\CodingSkillExample.Web.Tests.csproj", "{F7AED013-7529-45AB-AB84-C10B28E2E5FD}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Web", "Web", "{644A56B4-2721-407C-B51D-F65E63D79079}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Domain", "Domain", "{9B4E9B56-46DD-45BD-9E8E-DFA725E75E4E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C79CAD29-35C1-4AC2-8589-BC8226161247}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C79CAD29-35C1-4AC2-8589-BC8226161247}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C79CAD29-35C1-4AC2-8589-BC8226161247}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C79CAD29-35C1-4AC2-8589-BC8226161247}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9BF28FDC-D729-47FA-9FAA-A95253439A95}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9BF28FDC-D729-47FA-9FAA-A95253439A95}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9BF28FDC-D729-47FA-9FAA-A95253439A95}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9BF28FDC-D729-47FA-9FAA-A95253439A95}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0014CE66-BCE9-4982-BE95-9AE33106DA13}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0014CE66-BCE9-4982-BE95-9AE33106DA13}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0014CE66-BCE9-4982-BE95-9AE33106DA13}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0014CE66-BCE9-4982-BE95-9AE33106DA13}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2F71A9E6-BD95-4665-B637-64F574235648}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2F71A9E6-BD95-4665-B637-64F574235648}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2F71A9E6-BD95-4665-B637-64F574235648}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2F71A9E6-BD95-4665-B637-64F574235648}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F7AED013-7529-45AB-AB84-C10B28E2E5FD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F7AED013-7529-45AB-AB84-C10B28E2E5FD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F7AED013-7529-45AB-AB84-C10B28E2E5FD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F7AED013-7529-45AB-AB84-C10B28E2E5FD}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{2F71A9E6-BD95-4665-B637-64F574235648} = {644A56B4-2721-407C-B51D-F65E63D79079}
+		{F7AED013-7529-45AB-AB84-C10B28E2E5FD} = {644A56B4-2721-407C-B51D-F65E63D79079}
+		{C79CAD29-35C1-4AC2-8589-BC8226161247} = {9B4E9B56-46DD-45BD-9E8E-DFA725E75E4E}
+		{9BF28FDC-D729-47FA-9FAA-A95253439A95} = {9B4E9B56-46DD-45BD-9E8E-DFA725E75E4E}
+		{0014CE66-BCE9-4982-BE95-9AE33106DA13} = {9B4E9B56-46DD-45BD-9E8E-DFA725E75E4E}
+	EndGlobalSection
+EndGlobal
